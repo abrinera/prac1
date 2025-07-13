@@ -15,6 +15,4 @@ jobs:
             - name: Git checkout korbo
               uses: actions/checkout@v2
             - name: read txt
-              run: |
-                ls -l
-                cat hello.txt
+              run: cat hello.txt
